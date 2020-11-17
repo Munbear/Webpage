@@ -30,3 +30,27 @@ form {margin: 0; padding: 0;}
 /* a 링크 초기화 */
 a {color: #222; text-decoration: none;}
 a:hover {color: #390;}
+
+/* 폰트 초기화 */
+body,
+input,
+textarea,
+select,
+button,
+table {
+    font-family: 'Nanum Gothic', AppleSDGothicNeo-Reguler,'Malgun Gothic','맑은 고딕',dotum,'돋움',asns-serif;
+    color: #222;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+/* IR 효과 */
+
+.ir_pm {  /* 의미있는 이미지의 대체 */
+    display: block;
+    overflow: hidden;
+    font-size: 0;
+    line-height: 0;
+    text-indent: -9999px;
+}
+.ir_wa
